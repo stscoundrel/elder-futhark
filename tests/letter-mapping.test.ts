@@ -50,5 +50,6 @@ describe('Letter mapping tests', () => {
     expect(resultMap.get('ö')).toBe('ᚢ');
     expect(resultMap.get('ø')).toBe('ᚢ');
     expect(resultMap.get('þ')).toBe('ᚦ');
+    expect(resultMap.get(' ')).toBe(':');
   });
 });
