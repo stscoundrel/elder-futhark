@@ -1,13 +1,40 @@
-# TypeScript Template
+# Elder Futhark
 
-Template repo for generic TypeScript / Node.js library with tests &amp; lint
+Transform latin letters to Elder Futhark runes & vice versa
+
+See also [Younger Futhark](https://github.com/stscoundrel/younger-futhark) version.
 
 ### Install
 
-`yarn add name-of-the-package`
+`yarn add elder-futhark`
 
-##### Usage
+#### Usage
+
+You can either transform runes to text, or text to runes.
+
+Latin text to runes:
 
 ```javascript
-// Your usage example here
+import { lettersToRunes } from 'elder-futhark'
+
+// Proto-norse text from 4th century axe in Jutland
+const result = lettersToRunes('wagagastiz alu wihgu sikijaz aiþalataz')
+
+console.log(result) // ᚹᚨᚷᚨᚷᚨᛋᛏᛁᛉ:ᚨᛚᚢ:ᚹᛁᚻᚷᚢ:ᛋᛁᚲᛁᛃᚨᛉ:ᚨᛁᚦᚨᛚᚨᛏᚨᛉ
 ```
+
+Runes to latin text:
+
+```javascript
+import { runesToLetters } from 'elder-futhark'
+
+const result = runesToLetters('ᚠᚢᚦᚨᚱᚲ')
+
+console.log(result) // fuþark
+```
+
+### About Elder Futhark
+
+The Elder Futhark, also known as the Older Futhark, is the oldest form of the runic alphabets. It was a writing system used by Germanic peoples for Northwest Germanic dialects in the Migration Period. It was used to write Proto-Norse language, predecessor of Old Norse.
+
+In Scandinavia it later evolved to simplified Younger Futhark.
