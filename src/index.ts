@@ -25,8 +25,16 @@ export const lettersToRunes = (content: string) : string => {
   return result;
 };
 
+export const runesToLetters = (content: string) : string => {
+  const runeMapping = getRuneMapping();
+  const result = transform(content, runeMapping);
+
+  return result;
+};
+
 export default {
   getLetterMapping,
   getRuneMapping,
   lettersToRunes,
+  runesToLetters,
 };
