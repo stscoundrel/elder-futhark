@@ -1,5 +1,5 @@
 {
-  "name": "telder-futhark",
+  "name": "elder-futhark",
   "version": "1.0.0",
   "description": "Transform latin letters to Elder Futhark runes, and vice versa",
   "repository": "https://github.com/stscoundrel/elder-futhark.git",
