@@ -1,5 +1,6 @@
-export const example = (): string => 'test string';
+import { getLetterMapping } from './mappings/letter-mapping';
+
 
 export default {
-  example,
+  getLetterMapping,
 };
