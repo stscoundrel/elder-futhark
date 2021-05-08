@@ -5,7 +5,8 @@ export const getLetterMapping = (): Map<string, string> => {
   letterMapping.set('á', 'ᚨ');
   letterMapping.set('b', 'ᛒ');
   letterMapping.set('c', 'ᚲ');
-  letterMapping.set('d', 'd');
+  letterMapping.set('d', 'ᛞ');
+  letterMapping.set('ð', 'ᚦ');
   letterMapping.set('e', 'ᛖ');
   letterMapping.set('é', 'ᛖ');
   letterMapping.set('f', 'ᚠ');

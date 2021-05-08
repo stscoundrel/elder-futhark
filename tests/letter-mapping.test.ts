@@ -15,7 +15,8 @@ describe('Letter mapping tests', () => {
     expect(resultMap.get('á')).toBe('ᚨ');
     expect(resultMap.get('b')).toBe('ᛒ');
     expect(resultMap.get('c')).toBe('ᚲ');
-    expect(resultMap.get('d')).toBe('d');
+    expect(resultMap.get('d')).toBe('ᛞ');
+    expect(resultMap.get('ð')).toBe('ᚦ');
     expect(resultMap.get('e')).toBe('ᛖ');
     expect(resultMap.get('é')).toBe('ᛖ');
     expect(resultMap.get('f')).toBe('ᚠ');
