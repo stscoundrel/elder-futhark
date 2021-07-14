@@ -2,7 +2,10 @@
 
 Transform latin letters to Elder Futhark runes & vice versa
 
-See also [Younger Futhark](https://github.com/stscoundrel/younger-futhark) version.
+Other runic alphabets:
+- [Younger Futhark](https://github.com/stscoundrel/younger-futhark)
+- [Futhorc (Anglo-Saxon runes)](https://github.com/stscoundrel/futhorc)
+- [Futhork (Medieval runes)](https://github.com/stscoundrel/futhork)
 
 ### Install
 
