@@ -1,6 +1,6 @@
 {
   "name": "elder-futhark",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Transform latin letters to Elder Futhark runes, and vice versa",
   "repository": "https://github.com/stscoundrel/elder-futhark.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
