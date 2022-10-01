@@ -2,8 +2,8 @@ import elderFuthark from '../src';
 
 describe('Runes to letters transformation tests', () => {
   test('Transforms runes to letters', () => {
-    const runes = 'ᚠᚢᚦᚨᚱᚲ';
-    const expected = 'fuþark';
+    const runes = 'ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚻᚾᛁᛃᛇᛈᛉᛊᛋᛏᛒᛖᛗᛚᛜᛝᛟᛞ:';
+    const expected = 'fuþarkgwhhnijïpzsstbemlŋŋod ';
 
     const result = elderFuthark.runesToLetters(runes);
 
